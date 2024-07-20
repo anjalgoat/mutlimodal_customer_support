@@ -28,5 +28,6 @@ Provides contextual responses based on the detected intent.
 
 to run steps:
 1. Install all libraries
-2. cd src
-3. streamlit run app.py
+2. Replace your Groq api key in .env file
+3. cd src in terminal
+3. streamlit run app.py in terminal
