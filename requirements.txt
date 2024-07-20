@@ -1,0 +1,9 @@
+streamlit
+langchain
+groq
+langchain-groq
+python-dotenv
+faster-wishper
+gtts
+soundevice
+soundfile

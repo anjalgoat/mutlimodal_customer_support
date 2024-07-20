@@ -1,0 +1,32 @@
+This project is a Multimodal Customer Support Chatbot designed to provide banking-related assistance through both text and voice interactions. Here’s a brief overview of the key components and technologies used:
+
+LangChain:
+
+Used for constructing and managing the conversational flow.
+Provides utilities for handling different types of messages and prompts.
+
+Streamlit:
+
+Used for creating an interactive web-based user interface.
+Enables real-time chat functionalities and display of text and audio inputs.
+
+Groq and Mistral LLM:
+
+Leveraged for natural language understanding and response generation.
+Mistral model is instruction-tuned to ensure accurate and contextually relevant responses.
+
+Voice Input and Output:
+
+Integrated using the faster-whisper library for speech-to-text transcription.
+gTTS library used for converting text responses back to speech, enabling a complete voice interaction loop.
+
+Intent Detection:
+
+Implemented with LLM to classify user queries into predefined intents (e.g., balance check, new account).
+Provides contextual responses based on the detected intent.
+
+
+to run steps:
+1. Install all libraries
+2. cd src
+3. streamlit run app.py
